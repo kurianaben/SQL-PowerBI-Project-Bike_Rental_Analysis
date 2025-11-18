@@ -1,1 +1,17 @@
+/*____________________________________________________________________
+Data Segmentation
 
+Purpose:
+-To break the data into meaningful user segments or scenarios to compare how different groups behave.
+
+What it answers:
+-Do people rent more during commute hours?
+-Do weekends behave differently from weekdays?
+-What happens during rainy commute hours?
+-How do visibility or humidity levels change demand?
+
+Why it's important:
+-Segmentation allows deeper insight into specific user patterns and use cases, beyond just simple averages.
+
+____________________________________________________________________ */
+--QUERIES
