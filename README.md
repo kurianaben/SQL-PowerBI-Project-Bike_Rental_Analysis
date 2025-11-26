@@ -11,15 +11,15 @@ This project analyzes hourly bike rental activity in Seoul to understand how sea
 Source: (UCI Machine Learning Repository)
 https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
 
-Records: 8,465
+**Records:** 8,465
 
-Location: Seoul, South Korea
+**Location:** Seoul, South Korea
 
-Date Range: December 1, 2017 – November 30, 2018
+**Date Range:** December 1, 2017 – November 30, 2018
 
-Granularity: Hourly observations
+**Granularity:** Hourly observations
 
-Variables Included:
+**Variables Included:**
 Date,
 Hour,
 Bike Rental Count,
@@ -57,33 +57,22 @@ Steps completed:
 
 ## KEY INSIGHTS
 
-Seasonality
+**Seasonality**
 - Bike demand is strongly seasonal, with clear peaks in late spring and early summer.
 - June represents the highest rental month, while winter months show significantly lower demand.
 - September exhibits a secondary peak due to cooler temperatures and the return of commuter routines.
 
-Weather Effects
+**Weather Effects**
 
 - Temperature is the strongest predictor of rental demand (correlation: 0.54).
 - Solar radiation positively influences ridership.
 - Rainfall and snowfall sharply suppress bike usage and act as on/off switches in riding behavior.
 
-Usage Behavior
+**Usage Behavior**
 
 - Morning and evening commuting patterns dominate usage, with peaks at 8 AM and 6 PM.
 - Holidays show noticeably lower rentals compared to non-holidays.
 - Weekdays generate significantly more total rentals than weekends.
-
-## VISUALIZATIONS INCLUDED
-
-- Hourly rental trends
-- Monthly and seasonal rental patterns
-- Holiday vs non-holiday comparison
-- Temperature vs rentals
-- Solar radiation, rainfall, and snowfall correlations
-- Rentals vs temperature by month
-- Weekday vs weekend rental patterns
-- KPI summary cards
 
 ## RECOMMENDATIONS
 
